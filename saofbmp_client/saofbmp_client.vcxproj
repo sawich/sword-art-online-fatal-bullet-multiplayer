@@ -25,10 +25,11 @@
     <ClInclude Include="header\framework.hpp" />
     <ClInclude Include="header\hentai\client.hpp" />
     <ClInclude Include="header\hentai\net.hpp" />
+    <ClInclude Include="header\hentai\utility\application.hpp" />
     <ClInclude Include="header\hentai\utility\to_hex.hpp" />
+    <ClInclude Include="header\saofb\application.hpp" />
     <ClInclude Include="header\saofb\character.hpp" />
     <ClInclude Include="header\saofb\core\math\vector3.hpp" />
-    <ClInclude Include="header\saofb\game.hpp" />
     <ClInclude Include="header\saofb\world.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

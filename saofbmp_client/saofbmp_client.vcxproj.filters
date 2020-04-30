@@ -41,14 +41,15 @@
     <ClInclude Include="header\saofb\core\math\vector3.hpp">
       <Filter>header\saofb\core</Filter>
     </ClInclude>
-    <ClInclude Include="header\saofb\game.hpp">
-      <Filter>header\saofb</Filter>
-    </ClInclude>
     <ClInclude Include="header\saofb\world.hpp">
       <Filter>header\saofb</Filter>
     </ClInclude>
     <ClInclude Include="header\hentai\utility\to_hex.hpp">
       <Filter>header\hentai\utility</Filter>
     </ClInclude>
+    <ClInclude Include="header\hentai\utility\application.hpp">
+      <Filter>header\saofb</Filter>
+    </ClInclude>
+    <ClInclude Include="header\saofb\application.hpp" />
   </ItemGroup>
 </Project>

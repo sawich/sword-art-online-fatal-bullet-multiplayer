@@ -1,6 +1,7 @@
 #pragma once
 
 #include "../framework.hpp"
+#include "../saofb/application.hpp"
 #include "../saofb/game.hpp"
 #include "utility/to_hex.hpp"
 #include "net.hpp"
@@ -17,7 +18,8 @@ namespace hentai
 			msg += TEXT("base: ");
 			msg += hentai::utility::to_hex(base);
 
-			saofb::game* c = reinterpret_cast<saofb::game*>(reinterpret_cast<uintptr_t*>(**(reinterpret_cast<uintptr_t**>(base + 0x04C100D8))));
+			saofb::application* a = reinterpret_cast<saofb::application*>(reinterpret_cast<uintptr_t*>(*(reinterpret_cast<uintptr_t*>(base + 0x04C100D8))));
+			saofb::game* c = a->game;
 			msg += TEXT(" / position: [x:");
 			msg += std::to_tstring(c->world->character->position.x);
 			msg += TEXT("/");
