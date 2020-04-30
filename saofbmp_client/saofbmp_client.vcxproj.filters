@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{6970e8d2-8bbd-4efa-880e-e0be93ae14f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{03a22a8c-9b36-4a61-a600-46586a5dc2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\hentai">
+      <UniqueIdentifier>{10eb9266-2dd1-4878-8732-7b9edd89a6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\saofb">
+      <UniqueIdentifier>{e0fcbc70-b40e-43f8-81c0-477bfc898c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\saofb\core">
+      <UniqueIdentifier>{245bda55-98cc-4fc6-b2c4-dc94ac9067de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\hentai\utility">
+      <UniqueIdentifier>{d4d70dc4-66c6-4ba1-bf16-9222afc92082}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\framework.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\client.hpp">
+      <Filter>header\hentai</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\net.hpp">
+      <Filter>header\hentai</Filter>
+    </ClInclude>
+    <ClInclude Include="header\saofb\character.hpp">
+      <Filter>header\saofb</Filter>
+    </ClInclude>
+    <ClInclude Include="header\saofb\core\math\vector3.hpp">
+      <Filter>header\saofb\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\saofb\game.hpp">
+      <Filter>header\saofb</Filter>
+    </ClInclude>
+    <ClInclude Include="header\saofb\world.hpp">
+      <Filter>header\saofb</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\utility\to_hex.hpp">
+      <Filter>header\hentai\utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

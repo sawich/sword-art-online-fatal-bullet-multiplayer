@@ -7,10 +7,30 @@
     <Filter Include="source">
       <UniqueIdentifier>{7cdeb6b6-f37f-4de7-b6dc-4d5133880d8b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="header\hentai">
+      <UniqueIdentifier>{96632271-fccf-4382-8cf9-ca350d37b4c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
       <Filter>source</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\framework.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\injector.hpp">
+      <Filter>header\hentai</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\process.hpp">
+      <Filter>header\hentai</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\virtual_alloc_ex.hpp">
+      <Filter>header\hentai</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\snapshot.hpp">
+      <Filter>header\hentai</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

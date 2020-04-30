@@ -1,0 +1,15 @@
+[submodule "deps/asio"]
+	path = deps/asio
+	url = https://github.com/boostorg/asio
+[submodule "deps/system"]
+	path = deps/system
+	url = https://github.com/boostorg/system
+[submodule "deps/config"]
+	path = deps/config
+	url = https://github.com/boostorg/config
+[submodule "deps/winapi"]
+	path = deps/winapi
+	url = https://github.com/boostorg/winapi
+[submodule "deps/predef"]
+	path = deps/predef
+	url = https://github.com/boostorg/predef
