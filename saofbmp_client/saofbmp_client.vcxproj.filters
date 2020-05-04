@@ -19,6 +19,15 @@
     <Filter Include="header\hentai\utility">
       <UniqueIdentifier>{d4d70dc4-66c6-4ba1-bf16-9222afc92082}</UniqueIdentifier>
     </Filter>
+    <Filter Include="header\saofb\core\math">
+      <UniqueIdentifier>{8ebe7915-f386-48e4-9899-f828c546c981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\uef">
+      <UniqueIdentifier>{95d3f7b0-d68b-443a-9102-e6292b70acc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\uef\windows">
+      <UniqueIdentifier>{f8c95b8b-ce44-467a-ad79-0782e45a6ba6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\dllmain.cpp">
@@ -38,18 +47,101 @@
     <ClInclude Include="header\saofb\character.hpp">
       <Filter>header\saofb</Filter>
     </ClInclude>
-    <ClInclude Include="header\saofb\core\math\vector3.hpp">
-      <Filter>header\saofb\core</Filter>
-    </ClInclude>
     <ClInclude Include="header\saofb\world.hpp">
       <Filter>header\saofb</Filter>
     </ClInclude>
     <ClInclude Include="header\hentai\utility\to_hex.hpp">
       <Filter>header\hentai\utility</Filter>
     </ClInclude>
-    <ClInclude Include="header\hentai\utility\application.hpp">
+    <ClInclude Include="header\saofb\application.hpp">
       <Filter>header\saofb</Filter>
     </ClInclude>
-    <ClInclude Include="header\saofb\application.hpp" />
+    <ClInclude Include="header\hentai\utility\tentacle.hpp">
+      <Filter>header\hentai\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="header\saofb\core\math\vec3.hpp">
+      <Filter>header\saofb\core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="header\saofb\core\static_address.hpp">
+      <Filter>header\saofb\core</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\utility\event.hpp">
+      <Filter>header\hentai\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="header\saofb\name_types.hpp">
+      <Filter>header\saofb</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\f_name.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\f_name_defs.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\f_name_entry.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\f_u_object_item.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\u_class.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\u_field.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\e_internal_object_flags.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\u_object.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\f_fixed_u_object_array.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\windows\critical_section.hpp">
+      <Filter>header\uef\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\f_windows_critical_section.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\f_u_object_array.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\f_critical_section.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\t_array.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\u_struct.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\u_property.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\e_lifetime_condition.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\u_script_struct.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\e_struct_flags.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ue.hpp">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\core.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\t_static_indirect_array_thread_safe_read.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\euf\t_name_entry_array.hpp">
+      <Filter>header\uef</Filter>
+    </ClInclude>
+    <ClInclude Include="header\hentai\utility\console.hpp">
+      <Filter>header\hentai\utility</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

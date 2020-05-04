@@ -1,14 +1,19 @@
 #pragma once
 
+#define _CRT_SECURE_NO_WARNINGS
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #include <TlHelp32.h>
+#include <psapi.h>
 
+#include <iostream>
+#include <future>
+#include <iomanip>
+#include <sstream>
 #include <fstream>
 #include <memory>
 #include <cassert>
-#include <sstream>
-#include <iomanip>
+#include <thread>
 //
 //#define BOOST_ASIO_STANDALONE
 //#define DASIO_STANDALONE 
@@ -35,3 +40,5 @@ namespace std
 	tstring to_tstring(T&& arg) { return to_string(arg); }
 #endif
 }
+
+// https://youtu.be/kkcq3tX2nOA

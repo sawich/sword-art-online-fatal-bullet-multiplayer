@@ -22,15 +22,42 @@
     <ClCompile Include="source\dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header\euf\core.hpp" />
+    <ClInclude Include="header\euf\e_internal_object_flags.hpp" />
+    <ClInclude Include="header\euf\e_lifetime_condition.hpp" />
+    <ClInclude Include="header\euf\e_struct_flags.hpp" />
+    <ClInclude Include="header\euf\f_critical_section.hpp" />
+    <ClInclude Include="header\euf\f_fixed_u_object_array.hpp" />
+    <ClInclude Include="header\euf\f_name.hpp" />
+    <ClInclude Include="header\euf\f_name_defs.hpp" />
+    <ClInclude Include="header\euf\f_name_entry.hpp" />
+    <ClInclude Include="header\euf\f_u_object_array.hpp" />
+    <ClInclude Include="header\euf\f_u_object_item.hpp" />
+    <ClInclude Include="header\euf\f_windows_critical_section.hpp" />
+    <ClInclude Include="header\euf\t_array.hpp" />
+    <ClInclude Include="header\euf\t_name_entry_array.hpp" />
+    <ClInclude Include="header\euf\t_static_indirect_array_thread_safe_read.hpp" />
+    <ClInclude Include="header\euf\u_class.hpp" />
+    <ClInclude Include="header\euf\u_field.hpp" />
+    <ClInclude Include="header\euf\u_object.hpp" />
+    <ClInclude Include="header\euf\u_property.hpp" />
+    <ClInclude Include="header\euf\u_script_struct.hpp" />
+    <ClInclude Include="header\euf\u_struct.hpp" />
+    <ClInclude Include="header\euf\windows\critical_section.hpp" />
     <ClInclude Include="header\framework.hpp" />
     <ClInclude Include="header\hentai\client.hpp" />
     <ClInclude Include="header\hentai\net.hpp" />
-    <ClInclude Include="header\hentai\utility\application.hpp" />
+    <ClInclude Include="header\hentai\utility\console.hpp" />
+    <ClInclude Include="header\hentai\utility\event.hpp" />
+    <ClInclude Include="header\hentai\utility\tentacle.hpp" />
     <ClInclude Include="header\hentai\utility\to_hex.hpp" />
     <ClInclude Include="header\saofb\application.hpp" />
     <ClInclude Include="header\saofb\character.hpp" />
-    <ClInclude Include="header\saofb\core\math\vector3.hpp" />
+    <ClInclude Include="header\saofb\core\math\vec3.hpp" />
+    <ClInclude Include="header\saofb\core\static_address.hpp" />
+    <ClInclude Include="header\saofb\name_types.hpp" />
     <ClInclude Include="header\saofb\world.hpp" />
+    <ClInclude Include="header\ue.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
